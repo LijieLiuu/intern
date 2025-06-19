@@ -9,18 +9,18 @@ In other words, recursion is automatic, whereas an explicit stack must be manage
 Pseudocode for level-order traversal(using stack)
 If we need to change the order, we should reverse the values list, rather than appending nodes to next_level in reverse.
 
-=========================================================================================================
+=======================================================================================================
 # level-order traversal template
 def levelOrderTraverse(root):
     # always check whether root empty when dealing tree-related leetcode questions
+    
     if root is None:
         return []
-
     # starting level
     curr_level = [root]
     # complete traversal list initialization
     result = []
-
+    
     # As long as curr_level is not empty, we keep adding its next level’s nodes
     while curr_level:
         next_level = []
@@ -36,7 +36,7 @@ def levelOrderTraverse(root):
         curr_level = next_level
 
     return result
-=========================================================================================================
+=======================================================================================================
 
 [LeetCode 429] 
 如果不是tree那样left和right而是children，那么values要用extend而不是append: next_level.extend(node.children). 
