@@ -2,7 +2,7 @@
 
 How to traverse a DAG in a way similar to BFS? **Topological Sort!**
 
-![Definition of DAG](images/DAG.png)
+![Definition of DAG](../images/DAG.png)
 
 ```python
 from collections import deque
