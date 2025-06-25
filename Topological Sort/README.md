@@ -1,8 +1,8 @@
-Topological Sort
-==============================
-How to traverse a DAG in a way similar to BFS?  **Topological Sort!**
+## Topological Sort
 
-![Deefinition of DAG](./Screenshot 2025-06-25 at 23.02.23.png)
+How to traverse a DAG in a way similar to BFS? **Topological Sort!**
+
+![Definition of DAG](Topological Sort/Screenshot 2025-06-25 at 23.02.23.png)
 
 ```python
 from collections import deque
