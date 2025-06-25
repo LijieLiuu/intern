@@ -38,3 +38,5 @@ def topological_sort(nodes):
 Differences between Topological Sort and BFS
 ===================================
 Topological Sort has to maintain an **indegree table** (or map) for all nodes.
+
+**Topological Sort = BFS + In Degree Check**
