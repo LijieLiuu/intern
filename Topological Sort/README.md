@@ -32,6 +32,7 @@ def topological_sort(nodes):
 
     return result
 ```
+![项目示意图](images/Screenshot 2025-06-25 at 23.02.23.png)
 
 Differences between Topological Sort and BFS
 ===================================
