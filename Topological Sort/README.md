@@ -2,6 +2,8 @@ Topological Sort
 ==============================
 How to traverse a DAG in a way similar to BFS?  **Topological Sort!**
 
+![Deefinition of DAG](./Screenshot 2025-06-25 at 23.02.23.png)
+
 ```python
 from collections import deque
 
@@ -32,7 +34,6 @@ def topological_sort(nodes):
 
     return result
 ```
-![项目示意图](images/Screenshot 2025-06-25 at 23.02.23.png)
 
 Differences between Topological Sort and BFS
 ===================================
