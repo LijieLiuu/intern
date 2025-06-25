@@ -40,4 +40,9 @@ Level-order traversal – “level list”
 
 For DFS, it can also be written in recursion since it’s utilizing stack as its container. Sometimes recursion version is easier. Sometimes using stack is easier.
 
-Time/space complexity of BFS and DFS are **both O(m+n)** where m is the number of nodes and n is the number of edges
+What is the time/space complexity of BFS/DFS for both Time and Space Complexity?
+========
+**O(m+n)** where m is the number of nodes and n is the number of edges
+
+**O(m^2)** where m is the number of nodes if no other conditions are given
+
