@@ -34,10 +34,16 @@ def solve():
     return results
 ```
 
+
+
 Common Mistakes:
 ===============
 1. Program consistency, the variables representing the same object should have
 values from the same state.
 2. Deep copy only when the object is finalized
 3. Duplicate result: repetitively visiting the parameters
+
+4. A common mistake in backtrack is repeatedly counting solution or traversing the same position/condition/state more than once. 
+
+   A good habit is to create a structured level/order for traversal. Usually used order - array index, grid row/column, etc.
 
