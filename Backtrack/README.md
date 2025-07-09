@@ -5,8 +5,8 @@ Steps for Backtrack:
 
 Backtrack (by nature, it’s actually DFS)
 1. Initialize a global list/dict to store final answer(s)
-2. Design a recursive function that tries the following step
-    a.Continuously recurse until it find an answer or failed a check
+2. Design a **recursive function** that tries the following step
+    a. Continuously recurse until it find an answer or failed a check
     b.Whenever it hits the end condition, it will go back to the previous recursion level to search for the next available option
 3.	Return the final global list/dict
 
