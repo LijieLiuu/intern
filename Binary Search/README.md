@@ -12,10 +12,10 @@ def find_leftmost(nums, target):
     left, right = 0, len(nums) - 1
     while left < right:
         mid = (left + right) // 2
-        if nums[mid] < target:
-            left = mid + 1
-        else:
+        if nums[mid] >= target:
             right = mid
+        else:
+            left = mid + 1
     if left < len(nums) and nums[left] == target:
         return left
     return -1
@@ -29,10 +29,10 @@ def find_rightmost(nums, target):
     left, right = 0, len(nums) - 1
     while left < right:
         mid = math.ceil((left + right) / 2)
-        if nums[mid] > target:
-            right = mid - 1
-        else:
+        if nums[mid] <= target:
             left = mid
+        else:
+            right = mid - 1
     if right >= 0 and nums[right] == target:
         return right
     return -1
