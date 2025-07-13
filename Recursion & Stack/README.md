@@ -7,6 +7,7 @@ Recursion is an automated mechanism built on the language runtime’s call stack
 In contrast, an explicit stack is a manually constructed LIFO data structure in your code, where you must explicitly call push and pop to save and restore algorithmic state. 
 In other words, recursion is automatic, whereas an explicit stack must be managed by the programmer.
 
+**Recursion is when a function calls itself, adding a new frame to the call stack with each invocation until a base case is reached.**
 
 Pseudocode for level-order traversal(using stack)
 If we need to change the order, we should reverse the values list, rather than appending nodes to next_level in reverse.
