@@ -38,3 +38,32 @@ def find_rightmost(nums, target):
     return -1
 
 ```
+
+
+Value-based binary search:
+```python
+def binary_search(array) -> int:
+    def condition(value) -> bool:
+        pass
+
+    left, right = min(search_space), max(search_space)  # could be [0, n], [1, n] etc. Depends on problem
+    while left < right:
+        mid = left + (right - left) // 2
+        if condition(mid):
+            right = mid
+        else:
+            left = mid + 1
+    return left
+```
+
+What does the **condition** represents as below?
+
+Test whether x meets the goal.
+
+
+When existing the while loop, what 2 conditions might the left index become?
+
+If a solution exists, left is the **minimal** x with **condition(x)==True**.
+
+Otherwise, left ends up at the boundary, signalling “no valid x found.”
+
