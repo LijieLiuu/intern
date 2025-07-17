@@ -4,6 +4,7 @@ Sliding Window
 Suggested Index Represented Meaning
 ===
 **Left pointer** -> The left-most index that is in the window
+
 **Right pointer** -> The very next index that we are looking into
 
 **The window would look like [left, right)**
