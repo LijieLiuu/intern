@@ -44,3 +44,17 @@ def levelOrderTraverse(root):
 [LeetCode 429] 
 如果不是tree那样left和right而是children，那么values要用extend而不是append: next_level.extend(node.children). 
 extend 是 Python 列表（list）对象的一个方法，用来把一个可迭代对象（如另一个列表、元组等）中的所有元素，逐个添加到当前列表的末尾。
+
+Time/Space Complexity
+======================================
+```python
+def factorial(n):
+  if n == 0 or n == 1:
+    return 1
+  return n * factorial(n - 1)
+```
+Time/space complexity:
+
+Time - O(n)
+
+Space - O(n) call stack
