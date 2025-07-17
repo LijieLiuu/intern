@@ -8,3 +8,9 @@
 中括号 [] 则是列表（**list**）的标志
 
 大括号 {} 在 Python 中既是字典（**dict**）字面量的写法
+
+What is the difference between subarray and sublist (substring and subsequence)?
+============
+	[1,2,3,4,5] - subarray [1,2,3]   - sublist [1,3,5]
+ 
+ “Chicken”  - substring “ick”  - subsequence “ikn” 
