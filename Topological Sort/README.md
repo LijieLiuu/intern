@@ -40,3 +40,11 @@ Differences between Topological Sort and BFS
 Topological Sort has to maintain an **indegree table** (or map) for all nodes.
 
 **Topological Sort = BFS + In Degree Check**
+
+Time/Space Complexity
+====
+What is the time/space complexity of Topological Sort?
+
+Time - O(m+n)
+
+Space - O(m)
