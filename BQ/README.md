@@ -8,7 +8,7 @@ Background Question
 自我介绍
 ==
 my name is Lijie Liu **from** Georgia Tech, **major** in Computer Sceince，**concentrate** on Full Stack and Applied AI， **have experience/ solid in** building full-stack applications 
-
+还是要基于Job Description
 
 常见问题
 ===
