@@ -23,3 +23,7 @@ while not pq.empty():
     priority, item = pq.get()
     print(f"Priority: {priority}, Item: {item}")
 ```
+
+What about max heap?
+===
+Reverse `priority` to `-priority`
