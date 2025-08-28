@@ -1,0 +1,1 @@
+用两个prefix sum来达到跳过某一个index的办法
